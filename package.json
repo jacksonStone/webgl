@@ -1,0 +1,23 @@
+{
+  "name": "staticResourceDistributor",
+  "version": "1.0.0",
+  "description": "Really minimal server, that just serves files out of the public folder. Good for tinkering quickly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonStone/staticResourceDistributor.git"
+  },
+  "author": "Jackson Stone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacksonStone/staticResourceDistributor/issues"
+  },
+  "homepage": "https://github.com/jacksonStone/staticResourceDistributor#readme",
+  "dependencies": {
+    "hapi": "^16.1.0",
+    "inert": "^4.1.0"
+  }
+}
